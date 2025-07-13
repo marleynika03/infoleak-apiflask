@@ -45,14 +45,23 @@ git clone https://github.com/marleynika03/infoleak-apiflask.git
 
 
 2. Crie e ative o ambiente virtual
+   
 python -m venv venv
+
 venv\Scripts\activate
-3. Instale as dependências
+
+4. Instale as dependências
+   
 pip install -r requirements.txt
-4. Configure o PostgreSQL em database.py
+
+6. Configure o PostgreSQL em database.py
+   
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://usuario:senha@localhost:5432/infodb'
-5. Execute o servidor
+
+8. Execute o servidor
+   
 flask run
+
 📡 Endpoints da API
 
 Método	Rota	Descrição
@@ -64,10 +73,12 @@ GET	/dados	Retorna todos os dados armazenados
 DELETE	/apagar/<id>	Apaga um dado específico por ID
 
 🧪 Testes Automatizados
+
 Testes localizados no arquivo tests/test_endpoints.py.
 
 Para rodar:
-pytest
+pytest test\tests_endpoints.py
+
 Casos testados:
 
 POST /leak: Verifica envio e resposta correta
@@ -77,6 +88,7 @@ GET /dados: Verifica listagem de registros
 DELETE /apagar/<id>: Testa exclusão com confirmação de retorno
 
 🕵️ Possíveis Casos de Uso
+
 Simulação de coleta de dados em ambientes de laboratório de Pentest
 
 Demonstração prática de APIs REST com Flask
@@ -84,6 +96,7 @@ Demonstração prática de APIs REST com Flask
 Treinamento de testes com Pytest e integração com PostgreSQL
 
 📝 Licença
+
 Este projeto está sob a licença MIT. Sinta-se livre para estudar, modificar e reutilizar com os devidos créditos.
 
 ### ⚖️ Termos de uso
