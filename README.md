@@ -28,6 +28,7 @@ Git e GitHub
 Ngrok (opcional, para testes externos)
 
 🚀 Como Funciona
+
 O servidor roda um endpoint /leak que aceita requisições POST contendo informações da máquina.
 
 Os dados são validados e armazenados em um banco PostgreSQL.
