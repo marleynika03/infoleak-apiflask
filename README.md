@@ -11,6 +11,7 @@ Este projeto não contém nem promoverá código de spyware real, shells reverso
 O propósito é educacional, voltado ao estudo de APIs REST, testes com Pytest e práticas simuladas de coleta de dados em laboratórios isolados.
 
 ⚙️ Tecnologias Utilizadas
+
 Python 3.13.0
 
 Flask
@@ -53,9 +54,13 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://usuario:senha@localhost:54
 5. Execute o servidor
 flask run
 📡 Endpoints da API
+
 Método	Rota	Descrição
+
 POST	/leak	Recebe dados coletados e armazena
+
 GET	/dados	Retorna todos os dados armazenados
+
 DELETE	/apagar/<id>	Apaga um dado específico por ID
 
 🧪 Testes Automatizados
