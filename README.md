@@ -77,7 +77,7 @@ DELETE	/apagar/<id>	Apaga um dado específico por ID
 Testes localizados no arquivo tests/test_endpoints.py.
 
 Para rodar:
-pytest test\tests_endpoints.py
+pytest tests\test_endpoints.py
 
 Casos testados:
 
