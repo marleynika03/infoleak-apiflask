@@ -48,8 +48,7 @@ python -m venv venv
 venv\Scripts\activate
 3. Instale as dependências
 pip install -r requirements.txt
-4. Configure o PostgreSQL (Exemplo)
-# Em database.py
+4. Configure o PostgreSQL em database.py
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://usuario:senha@localhost:5432/infodb'
 5. Execute o servidor
 flask run
