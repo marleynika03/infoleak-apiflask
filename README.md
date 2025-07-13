@@ -1,4 +1,5 @@
 📖 Sobre o Projeto
+
 Este projeto é um protótipo de um servidor Flask para simular a coleta de dados em um ambiente de laboratório de segurança ofensiva (Pentest), com fins exclusivamente educacionais.
 
 A ideia é criar uma API REST que receba dados como user, hostname, IP, simulando o comportamento de ferramentas utilizadas em laboratórios de Pentest, onde uma aplicação maliciosa (spyware) envia dados capturados da máquina para esse servidor.
